@@ -8,7 +8,8 @@ const File = require("../models/csv"); // Import the 'csv' model from the specif
 module.exports.home = async function(req, res) {
     try {
         // Find all records in the 'csv' model (assumed to represent CSV files)
-        let files = await File.find({});
+        let files = await File.find({}).maxTimeMS(30000); // Sets a 30-second timeout
+
         
         // Render the 'home' view, passing the found CSV files to be displayed
         return res.render('home', {
