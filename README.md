@@ -32,15 +32,14 @@ Make sure you have the following software/tools installed on your machine:
    git clone https://github.com/your-username/csv-uploader.git
 Navigate to the project directory:
 
-
-    cd csv-uploader
+cd csv-uploader
 Install dependencies:
 
-    ```shell
+  
       npm install
 Start the server:
 
-    ```shell
+   
      npm start
 The application should now be running at http://localhost:8000.
 
