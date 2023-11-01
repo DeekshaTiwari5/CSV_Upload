@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB = 'mongodb://localhost/CSV_file_Upload';
+const DB = 'mongodb+srv://deeksha:deeksha@csvupload.caurvxn.mongodb.net/?retryWrites=true&w=majority';
 
 async function connectToDatabase() {
   try {
