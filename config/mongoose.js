@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 // MAKING CONNECTION 
 
 // Define the database connection URL
-const DB = 'mongodb://0.0.0.0:27017/CSV_file_Upload';
+const DB = 'mongodb://localhost:27017/CSV_file_Upload';
 
 // Attempt to connect to the MongoDB database
 mongoose.connect(DB).then(() => {
