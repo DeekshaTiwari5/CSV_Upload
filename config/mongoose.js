@@ -9,7 +9,7 @@ async function connectToDatabase() {
       useUnifiedTopology: true,
       family: 4
     });
-    console.log('Connected to server successful!');
+    console.log('Connected to server successfully!');
   } catch (err) {
     console.error("No connection " + err);
   }
